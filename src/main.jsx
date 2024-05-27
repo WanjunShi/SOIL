@@ -10,6 +10,7 @@ import Profile from "./Profile.jsx";
 import SpecialsDeals from "./SpecialsDeals.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ShoppingCart from "./ShoppingCart.jsx";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/specialsDeals",
         element: <SpecialsDeals />,
+      },
+      {
+        path: "/cart",
+        element: <ShoppingCart />,
       },
     ],
   },
